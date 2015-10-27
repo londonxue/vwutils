@@ -7,7 +7,7 @@
 //
 
 #import "UIView+Util.h"
-#import <GPUImage/GPUImage.h>
+#import <GPUImage.h>
 
 @implementation UIView (Util)
 
