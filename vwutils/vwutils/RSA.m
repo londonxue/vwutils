@@ -338,7 +338,7 @@ static const UInt8 privateKeyIdentifier[] = "com.apple.sample.privatekey111\0";
                                          cipherBufferSize,
                                          [bits mutableBytes],
                                          &keyBufferSize);
-    NSAssert(sanityCheck == noErr, @"Error decrypting, OSStatus == %ld.", sanityCheck);
+    NSAssert(sanityCheck == noErr, @"Error decrypting, OSStatus == %ld.", (int)sanityCheck);
     
     [bits setLength:keyBufferSize];
     
