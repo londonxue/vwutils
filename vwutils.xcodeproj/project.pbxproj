@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E47249401BDF15C800493301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E472493F1BDF15C800493301 /* main.m */; };
-		E47249431BDF15C800493301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E47249421BDF15C800493301 /* AppDelegate.m */; };
-		E47249461BDF15C800493301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47249451BDF15C800493301 /* ViewController.m */; };
 		E47249491BDF15C800493301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47249471BDF15C800493301 /* Main.storyboard */; };
 		E472494B1BDF15C800493301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E472494A1BDF15C800493301 /* Images.xcassets */; };
 		E472494E1BDF15C800493301 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E472494C1BDF15C800493301 /* LaunchScreen.xib */; };
@@ -52,10 +50,6 @@
 		E472493A1BDF15C800493301 /* vwutils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vwutils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E472493E1BDF15C800493301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E472493F1BDF15C800493301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E47249411BDF15C800493301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E47249421BDF15C800493301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E47249441BDF15C800493301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E47249451BDF15C800493301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E47249481BDF15C800493301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E472494A1BDF15C800493301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E472494D1BDF15C800493301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -149,10 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				E47249631BDF161700493301 /* vwutils */,
-				E47249411BDF15C800493301 /* AppDelegate.h */,
-				E47249421BDF15C800493301 /* AppDelegate.m */,
-				E47249441BDF15C800493301 /* ViewController.h */,
-				E47249451BDF15C800493301 /* ViewController.m */,
 				E47249471BDF15C800493301 /* Main.storyboard */,
 				E472494A1BDF15C800493301 /* Images.xcassets */,
 				E472494C1BDF15C800493301 /* LaunchScreen.xib */,
@@ -360,10 +350,8 @@
 				E472496B1BDF166F00493301 /* DataUtils.m in Sources */,
 				E47249871BDF16FD00493301 /* UncaughtExceptionHandler.m in Sources */,
 				E472496C1BDF166F00493301 /* DateUtils.m in Sources */,
-				E47249461BDF15C800493301 /* ViewController.m in Sources */,
 				E47249661BDF164300493301 /* WeakRef.m in Sources */,
 				E47249A31BDF178700493301 /* DTTimePeriod.m in Sources */,
-				E47249431BDF15C800493301 /* AppDelegate.m in Sources */,
 				E47249A21BDF178700493301 /* DTError.m in Sources */,
 				E47249821BDF16FD00493301 /* UIButton+Badge.m in Sources */,
 				E47249AA1BDF1E3200493301 /* NSTextAttachment+Util.m in Sources */,
@@ -566,6 +554,7 @@
 				E472495F1BDF15C800493301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E47249601BDF15C800493301 /* Build configuration list for PBXNativeTarget "vwutilsTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +563,7 @@
 				E47249621BDF15C800493301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
