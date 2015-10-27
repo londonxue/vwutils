@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VWUtilAppDelegate.h"
+//#import "VWUtilAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VWUtilAppDelegate class]));
+//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VWUtilAppDelegate class]));
     }
 }
